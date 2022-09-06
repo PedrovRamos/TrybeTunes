@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.asideMenu {
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-around;
+  position: fixed;
+  width: 400px;
+}
+
+.MusicIcon {
+  margin-top: -80px;
+  width: 40px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.menuOptions {
+  background-color: rgb(48, 188, 67);
+  border-radius: 30px;
+  color: white;
+  font-weight: 800;
+  height: 30px;
+  padding-left: 40px;
+  padding-top: 10px;
+  text-decoration: none;
+  transition-duration: 0.3s;
+  width: 250px;
+}
+
+.menuOptions:hover {
+  background-color: rgba(48, 188, 67, 0.795);
+}

@@ -1,0 +1,76 @@
+.albumBody {
+  background-color: rgb(39, 39, 39);
+  display: flex;
+}
+
+.infoSection {
+  margin-left: 400px;
+  width: 100%;
+}
+
+.albumInfo {
+  align-items: flex-start;
+  display: flex;
+  gap: 10px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.albumInfo img {
+  border-radius: 20px;
+  width: 250px;
+}
+
+.textInfo {
+  color: white;
+  padding-top: 20px;
+}
+
+.textInfo h1 {
+  font-weight: 900;
+  margin: 5px;
+}
+
+.textInfo h3 {
+  font-weight: 500;
+  margin: 5px;
+}
+
+.textInfo h4 {
+  font-weight: 400;
+  margin: 5px;
+}
+
+.musicsSection {
+  align-items: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.musicsSection audio {
+  margin-top: 8px;
+  width: 60vw;
+}
+
+.star {
+
+  /* margin: 15px; */
+  background: url('../Images/9fd420af3181b0338a99f313e5c6d5da.png');
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  /* height: 10px; */
+  width: 10px;
+
+
+}
+
+label span {
+  margin: 10px;
+}
+

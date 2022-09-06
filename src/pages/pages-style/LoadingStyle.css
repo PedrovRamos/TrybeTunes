@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.backgroundLoading {
+  background-color: rgba(39, 39, 39, 0.918);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.textLoading {
+  color: rgb(48, 188, 67);
+  font-weight: 800;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50vh;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}

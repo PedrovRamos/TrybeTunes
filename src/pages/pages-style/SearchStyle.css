@@ -1,0 +1,110 @@
+/* Estilizando Header */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.searchBody {
+  background-color: rgb(20, 20, 20);
+  display: flex;
+
+}
+
+.searchContent {
+  align-items: center;
+  background-color: rgb(39, 39, 39);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-left: 400px;
+  min-height: 100vh;
+  width: 80%;
+}
+
+.searchContainer {
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.searchContainer input {
+  border: solid 2px rgb(48, 188, 67);
+  border-radius: 50px;
+  font-family: -apple-system , BlinkMacSystemFont , sans-serif;
+  font-size: 15px;
+  height: 50px;
+  padding-left: 20px;
+  width: 320px;
+}
+
+.searchBody button {
+  background-color: rgb(48, 188, 67);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  font-family: -apple-system , sans-serif;
+  font-weight: 800;
+  height: 50px;
+  margin-left: 10px;
+  transition-duration: 0.3s;
+  width: 100px;
+}
+
+.searchBody button:disabled {
+  background-color: rgba(48, 188, 67, 0.644);
+  cursor: default;
+}
+
+.albumsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  width: 90%;
+}
+
+.albumCard {
+  background: rgb(48, 48, 48);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 380px;
+  margin-top: 50px;
+  width: 250px;
+
+}
+
+.albumCardContainer {
+  align-items: center;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-weight: 800;
+  height: 380px;
+  justify-content: space-evenly;
+  text-decoration: none;
+  width: 250px;
+}
+
+.nameCard {
+  font-weight: 400;
+  text-align: left;
+}
+
+.albumCardContainer img {
+  border-radius: 10px;
+  width: 230px;
+}
+
+.searchMessage {
+  align-self: flex-start;
+  color: white;
+  font-weight: 800;
+  margin-left: 50px;
+}
+
+.searchError {
+  color: white;
+  margin-top: 100px;
+}
